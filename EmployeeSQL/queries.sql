@@ -26,11 +26,10 @@ INNER JOIN departments AS d ON
 de.dept_no = d.dept_no;
 
 -- Query 5: Employees with name "Hercules B"
--- Need to debug
 SELECT e.first_name, e.last_name, e.sex
 FROM employees AS e
 WHERE e.first_name = 'Hercules'
-AND e.last_name = 'B%';
+AND e.last_name LIKE 'B%';
 
 -- Query 6: Sales Department Employees
 SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
