@@ -9,7 +9,7 @@ SELECT e.first_name, e.last_name, e.hire_date
 FROM employees AS e
 WHERE EXTRACT(YEAR FROM hire_date) = '1986';
 
--- Query 3: Manager of Each Department
+-- Query 3: Managers of Each Department
 SELECT m.dept_no, d.dept_name, m.emp_no, e.last_name, e.first_name
 FROM employees AS e
 INNER JOIN dept_manager as m ON
