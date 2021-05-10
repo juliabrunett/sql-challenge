@@ -55,3 +55,10 @@ SELECT e.last_name, COUNT(e.last_name) AS Frequency
 FROM employees as e
 GROUP BY e.last_name
 ORDER BY Frequency DESC;
+
+-- Bonus: Look up my employee ID number -- Epilogue
+SELECT e.last_name, e.first_name, s.salary
+FROM employees as e
+JOIN salaries as s ON
+e.emp_no = s.emp_no
+WHERE e.emp_no = 499942;
