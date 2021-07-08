@@ -10,6 +10,15 @@
 - *ERD.png:* Screenshot of ERD for database
 - *average_salary.png:* Screenshot of bonus graph
 - *histogram.png:* Screenshot of bonus graph
+- *salary_count.png:* Screenshot of bonus graph
 
 **Query Output folder**
 - CSV files of 8 query tables generated 
+
+# ERD 
+![ERD](EmployeeSQL/Images/ERD.png)
+
+# Graphs
+![Average Salary](EmployeeSQL/Images/average_salary.png)
+![Histogram](EmployeeSQL/Images/histogram.png)
+![Salary Count](EmployeeSQL/Images/salary_count.png)
