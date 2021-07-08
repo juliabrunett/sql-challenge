@@ -19,6 +19,6 @@
 ![ERD](EmployeeSQL/Images/ERD.png)
 
 # Graphs
-![Average Salary](EmployeeSQL/Images/average_salary.png)
-![Histogram](EmployeeSQL/Images/histogram.png)
-![Salary Count](EmployeeSQL/Images/salary_count.png)
+![Average Salary](Images/average_salary.png)
+![Histogram](Images/histogram.png)
+![Salary Count](Images/salary_count.png)
